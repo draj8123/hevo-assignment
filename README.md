@@ -8,12 +8,11 @@ This repository contains a dbt (data build tool) project for transforming and an
 1. Python Virtual Environment
    Create and activate a Python virtual environment:
 
-
-     # For Linux/macOS:
+    a. For Mac-OS
    python3 -m venv dbt_venv
    source dbt_venv/bin/activate
 
-    # For Windows:
+    b. For Windows:
    python -m venv dbt_venv
    dbt_venv\Scripts\activate
 
