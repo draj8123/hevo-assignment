@@ -6,18 +6,20 @@ This repository contains a dbt (data build tool) project for transforming and an
 ## Setup
 
 1. Python Virtual Environment
-   Create and activate a Python virtual environment:
+   Create and activate a Python virtual environment, and run the belwo command in your preferred terminal.
 
     a. For Mac-OS
    python3 -m venv dbt_venv
+   
    source dbt_venv/bin/activate
 
     b. For Windows:
    python -m venv dbt_venv
+   
    dbt_venv\Scripts\activate
 
 
-2. Install Dependencies 
+3. Install Dependencies 
     
     pip install dbt-snowflake
 
