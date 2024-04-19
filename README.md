@@ -33,10 +33,16 @@ This repository contains a dbt (data build tool) project for transforming and an
 5. Download the Package from git-repo, and run the below commands from dhanush_dbt_project   
 
 6. Please Run dbt life cycle commands :
+
+   
       a. dbt debug  --> to test connection to snowflake destination Warehouse
+   
       b. dbt init   --> to Initialize your dbt project
+   
       c. dbt compile --> to compile you dbt models
+   
       d. dbt run     --> to run your dbt models to transform your data
+   
       e. dbt test -s customers   --> Run tests to validate the rule definitions.
 
 **Support**
